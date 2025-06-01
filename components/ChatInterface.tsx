@@ -167,6 +167,14 @@ export default function ChatInterface() {
     ));
   };
 
+  const formatTimestamp = (timestamp: Date | string) => {
+    const date = typeof timestamp === 'string' ? new Date(timestamp) : timestamp;
+    return date.toLocaleTimeString([], { 
+      hour: '2-digit', 
+      minute: '2-digit' 
+    });
+  };
+
   if (!isInitialized) {
     return (
       <div className="min-h-screen bg-gradient-to-b from-slate-900 via-green-900 to-slate-800 flex items-center justify-center">
@@ -237,10 +245,7 @@ export default function ChatInterface() {
                       {formatMessage(message.content)}
                     </div>
                     <div className="text-xs opacity-50 mt-2">
-                      {message.timestamp.toLocaleTimeString([], { 
-                        hour: '2-digit', 
-                        minute: '2-digit' 
-                      })}
+                      {formatTimestamp(message.timestamp)}
                     </div>
                   </div>
                 </motion.div>
