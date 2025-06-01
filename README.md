@@ -1,4 +1,6 @@
-# Pixel 🧚‍♀️ - Digital Forest Spirit
+# Pixel - Digital Forest Spirit
+
+> 🧚‍♀️
 
 A mystical AI chat interface where you commune with Pixel, an ancient spirit dwelling in the digital forest. Experience a terminal-like interface with magical particle effects and persistent memory across users.
 
