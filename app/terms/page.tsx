@@ -134,9 +134,11 @@ export default function TermsOfService() {
               For questions about these terms, data requests, or to report issues:
             </p>
             <div className="bg-green-900/20 p-4 rounded border border-green-600/30">
-              <p className="text-green-300">
-                Send a mystical message through the forest winds...<br />
-                (Contact information to be provided based on your preferences)
+              <p className="text-green-300 mb-2">
+                📬 Email: guardians@sprited.app
+              </p>
+              <p className="text-green-200 text-sm">
+                💡 Note: Responses may take 1–3 earthly days. Your patience is part of the pact.
               </p>
             </div>
           </section>

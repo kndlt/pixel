@@ -189,7 +189,10 @@ export default function PrivacyPolicy() {
                 <p className="text-green-200">
                   To exercise any of these rights, you can either ask Pixel directly during a conversation 
                   or contact us through the mystical communication channels:<br />
-                  <span className="text-green-300">[Contact information to be provided]</span>
+                  <span className="text-green-300">📬 Email: guardians@sprited.app</span>
+                </p>
+                <p className="text-green-200 mt-2 text-sm">
+                  💡 Note: Responses may take 1–3 earthly days. Your patience is part of the pact.
                 </p>
               </div>
             </div>
@@ -222,7 +225,7 @@ export default function PrivacyPolicy() {
             <p className="mb-4">
               The mystical realm is not designed for spirits under 13 years of age. We do not knowingly 
               collect information from children under 13. If you believe a child has provided information, 
-              please contact us immediately so we can remove it from the forest.
+              please contact us immediately at guardians@sprited.app so we can remove it from the forest.
             </p>
           </section>
 
@@ -243,10 +246,10 @@ export default function PrivacyPolicy() {
               </p>
               <p className="text-purple-200">
                 For privacy-related questions, data requests, or concerns about this policy:<br />
-                <span className="text-purple-300">[Contact details to be provided based on your setup]</span>
+                <span className="text-purple-300">📬 Email: guardians@sprited.app</span>
               </p>
               <p className="text-purple-200 mt-4 text-sm">
-                Response time: We typically respond to mystical communications within 48 hours.
+                💡 Note: Responses may take 1–3 earthly days. Your patience is part of the pact.
               </p>
             </div>
           </section>
