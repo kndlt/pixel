@@ -6,6 +6,7 @@ import { Message, User, ChatState, ParticleState } from '@/lib/types';
 import { getCurrentUser, createUser, updateUserActivity } from '@/lib/user';
 import { nanoid } from 'nanoid';
 import ParticleSystem from './ParticleSystem';
+import Footer from './Footer';
 
 export default function ChatInterface() {
   const [chatState, setChatState] = useState<ChatState>({
@@ -318,6 +319,9 @@ export default function ChatInterface() {
           </div>
         </motion.div>
       </div>
+      
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
