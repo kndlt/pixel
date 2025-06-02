@@ -209,7 +209,7 @@ export default function ChatInterface() {
         </motion.div>
 
         {/* Messages Area */}
-        <div className="flex-1 overflow-y-auto scrollbar-thin scrollbar-thumb-green-600 scrollbar-track-transparent px-2">
+        <div className="flex-1 overflow-y-auto h-full scrollbar-thin scrollbar-thumb-green-600 scrollbar-track-transparent px-2">
           <div className="max-w-4xl mx-auto space-y-4 pb-4">
             <AnimatePresence>
               {chatState.messages.map((message) => (
